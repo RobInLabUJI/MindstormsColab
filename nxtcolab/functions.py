@@ -51,7 +51,7 @@ def connect():
     global s1; global s2; global s3; global s4
     global tempo
     global connected_robot
-    with open('robot_config.json', 'r') as f:
+    with open('./task/robot_config.json', 'r') as f:
          config = json.load(f)
     n = config['number']
     try:
