@@ -1,6 +1,7 @@
-# MindstormsCollab
+# MindstormsColab
 
-Collaboratory notebooks with examples and exercises for LEGO&reg; Mindstorms NXT and EV3 mobile robots.
+[Google Colab notebooks](https://research.google.com/colaboratory/faq.html) 
+with examples and exercises for LEGO&reg; Mindstorms NXT and EV3 mobile robots.
 
 The code consists of [Jupyter notebooks](http://jupyter.org/) 
 running in a laptop or desktop computer with Ubuntu Linux 20.04, 
@@ -9,7 +10,7 @@ which communicates with the robots via Bluetooth.
 The NXT runs its standard firmware, and so does the EV3 (there is no need
 to use an SD card).
 
-## Prerequisites
+## Prerequisites - Ubuntu 20.04
 
 * [PyBluez](https://github.com/karulis/pybluez)
 * NXT
