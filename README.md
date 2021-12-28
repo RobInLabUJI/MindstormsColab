@@ -3,7 +3,7 @@
 Collaboratory notebooks with examples and exercises for LEGO&reg; Mindstorms NXT and EV3 mobile robots.
 
 The code consists of [Jupyter notebooks](http://jupyter.org/) 
-running in a laptop or desktop computer, 
+running in a laptop or desktop computer with Ubuntu Linux 20.04, 
 which communicates with the robots via Bluetooth.
 
 The NXT runs its standard firmware, and so does the EV3 (there is no need
