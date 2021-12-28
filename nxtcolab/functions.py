@@ -8,9 +8,9 @@ def configure(n):
         'version' : 'nxt',
         'number' : n
     }
-    with open('../task/robot_config.json', 'w') as f:
+    with open('./task/robot_config.json', 'w') as f:
         json.dump(config, f)
-    shutil.copyfile('./functions.py', '../task/functions.py')
+    shutil.copyfile('./nxtcolab/functions.py', './task/functions.py')
     print("\x1b[32mConfiguració completa, podeu continuar.\x1b[0m")
     display(HTML('<p>Ara ja podeu continuar, començant la primera tasca de programació: provareu el robot a vore si respon i es mou correctament.</p><h2><a href="../task/index.ipynb" target="_blank">&gt;&gt;&gt; Prova de connexió</a></h2>'))
     
