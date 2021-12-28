@@ -28,7 +28,7 @@ Activate Bluetooth and pair your robot and computer.
 
 Run the pairing script:
 
-`./script/install.bash`
+`./script/pair.bash`
 
 The script launches [`bluetoothctl`](https://www.makeuseof.com/manage-bluetooth-linux-with-bluetoothctl/).
 Use the command `scan on` for finding your device, then use `pair <mac_address>` for pairing it.
@@ -47,4 +47,4 @@ Switch it on, that's all!
 
 ### Computer
 
-Download this repo, run the script `./script/run.bash` in the root folder, and enjoy!
+Run the script `./script/run.bash` in the root folder, and enjoy!
